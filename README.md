@@ -1,1 +1,1 @@
-# course-2021-summer-math-3352-modern-geometry-I
+# MATH 3352 Modern Geometry I
