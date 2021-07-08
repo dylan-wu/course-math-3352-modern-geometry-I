@@ -39,4 +39,28 @@
     "Date":"",
     "Description":""
   },
+  {
+    "Name":"Attendance",
+    "Weight":"10%",
+    "Percentage":"",
+    "Max":"100",
+    "Date":"",
+    "Description":""
+  },
+  {
+    "Name":"Course Projects",
+    "Weight":"20%",
+    "Percentage":"",
+    "Max":"100",
+    "Date":"",
+    "Description":""
+  },
+  {
+    "Name":"Final Exam",
+    "Weight":"20%",
+    "Percentage":"",
+    "Max":"100",
+    "Date":"",
+    "Description":""
+  },
 ]
