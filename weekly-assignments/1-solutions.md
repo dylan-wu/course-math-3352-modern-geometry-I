@@ -68,3 +68,124 @@ The union of two distinct, intersecting lines is a plan. Two distinct, intersect
 
 ### Problem 4
 
+(a)
+
+Given a set of 4 points, $\{A,B,C,D\}$, and given two distinct lines, the possible intersections are only at a singular point.
+
+Proof by contradiction:
+
+First, we assume that it is possible to have an intersection with more than one point. This would mean an intersection at both endpoints of the line, as a line contains only $2$ points.
+
+However, this would have error with our previous statement of the lines being distinct.
+
+QED
+
+(b)
+
+Given a set of 4 points, $\{A,B,C,D\}$, and given a line and a plane not containing the line, the possible intersections are only at a singular point.
+
+Proof by contradiction:
+
+First, we assume that it is possible to have an itnersection with more than one point. This point would mean an intersection at both endpoints of the line, as a line contains only $2$ points.
+
+However, this would have contradiction with our previous statement that the plane did not contain the line, as if the intersection of a plane which contains three points and a line which contains two points, is two points, that must mean the line is contained in the plane.
+
+QED
+
+(c)
+
+Given a set of 4 points, $\{A,B,C,D\}$, and given a line and a point not on that line, there is only one plane that contains both the line and the point.
+
+The total number of distinct points for a line, and a point not on that line is three. This is a plane by definition. As all planes, lines, and points are distinct, there is only one plane that contains both the line and the point.
+
+QED
+
+(d)
+
+Given a set of 4 points, $\{A,B,C,D\}$, and given two distinct lines that intersect, the union of the two is a plane.
+
+Every line has two points, distinct lines are lines where both points are not the same. For two lines to intersect, they must meet at at least one point.
+
+So the intersection of two distinct lines occurs at a single point. Meaning the union of these two lines contains the two dissimilar points, as well as the intersecting point. E.g. $\{A,B\}\cup\{B,C\}$ is $\{A,B,C\}$.
+
+By definition, this is a plane.
+
+### Problem 5
+
+Set $S=\{A,B,C,D,E\}$
+
+Then, a figure that illustrates this must have every possible line and plane represented.
+
+So all points must connect with one another at least once. Drawing this:
+
+![](2021-07-13-13-33-21.png)
+
+### Problem 6
+
+Postulate 1 obviously holds
+
+Postulate 2 holds, given any two points, only one line connects the two
+
+Postulate 3 holds, planes are distinct, and as every point connects to every other point only once, there will be exactly one plane for any set of three distinct points
+
+Postulate 4 obviously holds, as any two points contained in a plane will be connected by a line
+
+Postulate 5 does not hold, I could have an intersection of two planes of only a single point, for example: $\{A,B,C\}\cap\{A,D,E\}$ is $A$, which is not a line.
+
+Postulate 6 holds by definition
+
+### Problem 7
+
+The interpretation for problems 1 - 4 still holds, as in this modified system, we are simply removing a restriction (that a space must contain 4 noncollinear points). Our model has 4 distinct noncollinear, and coplanar points.
+
+### Problem 8
+
+## Exercise 2
+
+### Problem 1
+
+Theorem 5:
+
+For every pair of points $A,B$ in $S$,
+1. $d(A,B)\ge0$
+2. $d(A,B)=0$ if and only if $A=B$
+3. $d(A,B)=d(B,A)$
+
+Proof of 1.
+
+In definition 5, we define $AB$ and subsequently, $d(A,B)$ as $|f(A)-f(B)|$ by definition, this equation can never be less than $0$, due to the absolute value.
+
+QED
+
+Proof of 2.
+
+$AB=|f(A)-f(B)|$, let's first set $AB=0$
+
+$0=|f(A)-f(B)|$
+
+Getting rid of the absolute value: $f(A)-f(B)=\pm0$
+
+$f(A)=f(B)$
+
+Thus, $AB$ is $0$ only when $f(A)=f(B)$ as desired.
+
+QED
+
+Proof of 3.
+
+$|f(A)-f(B)|=|f(B)-f(A)|$
+
+$|f(A)-f(B)|=|-(f(A)-f(B))|$
+
+The absolute value gets rid of the negative sign
+
+$|f(A)-f(B)|=|f(A)-f(B)|$
+
+Obviously this is true
+
+### Problem 2
+
+## Exercise 3
+
+### Problem 3
+
