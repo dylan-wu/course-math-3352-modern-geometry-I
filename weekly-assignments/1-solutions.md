@@ -140,6 +140,10 @@ The interpretation for problems 1 - 4 still holds, as in this modified system, w
 
 ### Problem 8
 
+Yes, this interpretation is possible. None of the points $\{A,B,C,D\}$ are coplanar (there are no planes in this model).
+
+![](2021-07-14-16-55-28.png)
+
 ## Exercise 2
 
 ### Problem 1
@@ -184,6 +188,32 @@ $|f(A)-f(B)|=|f(A)-f(B)|$
 Obviously this is true
 
 ### Problem 2
+
+First we must show that $g$ is one to one:
+
+We already know that $f(A)$ is one to one, and $g(A)=-f(A)$, so by definition, $g(A)$ is one to one as well.
+
+$x=g(A)=-f(A),y=g(B)=-f(B)$
+
+Then, $|x-y|=|-f(A)+f(B)|$
+
+This is equivalent to: $|f(B)-f(A)|$
+
+Which, according to 3. of theorem 5, is equivalent to $|f(A)-f(B)|$, thus $g$ is a coordinate system for $l$.
+
+QED
+
+### Problem 3
+
+First, we define that $x=g(A)=f(A)+a$, $y=g(B)=f(B)+a$
+
+Then, $AB=|x-y|=|f(A)+a-(f(B)+a)|=|f(A)-f(B)|$
+
+QED
+
+### Problem 4
+
+
 
 ## Exercise 3
 
