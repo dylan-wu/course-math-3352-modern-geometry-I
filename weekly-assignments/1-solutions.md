@@ -8,17 +8,9 @@ Set $S=\{A,B,C,D\}$
 
 Then, a figure that illustrates this must have every possible line and plane represented.
 
-So $A$ must connect to each of $B,C,D$ at least once. Drawing this:
+So each point must connect with all others at least once. Drawing this:
 
-![](2021-07-12-13-08-54.png)
-
-$B$ must connect to each of $A,C,D$ at least once. Drawing this:
-
-![](2021-07-12-13-09-43.png)
-
-And finally, $C$ must connect to each of $A,B,D$ at least once. Drawing this:
-
-![](2021-07-12-13-10-16.png)
+![](2021-07-14-19-54-21.png)
 
 We also see that all possible planes have been made, as every combination of $3$ points is shown in the diagram.
 
@@ -212,6 +204,28 @@ Then, $AB=|x-y|=|f(A)+a-(f(B)+a)|=|f(A)-f(B)|$
 QED
 
 ### Problem 4
+
+Firstly, via postulate 8, we know that every line has coordinate systems of $|f(x)-f(y)|=xy$ where $x$ and $y$ are the any two points of the line.
+
+For the sake of argument here, let's set $x,y$ to be the two end points of the line.
+
+Then, from theorem 7, I can say that the line can also be described via: $|f(x)+a-(f(y)+a)|$, here we'll define $g(A)=f(x)+a$ and $g(B)=f(y)+a$
+
+Then, we can set $a$ such that $g(A)=f(x)+a$ is $0$, then, $|-g(B)|$ is our new valid coordinate system.
+
+Then, because of theorem 6, we can say that $|-g(B)|=|g(B)|$
+
+We have shown that for any line $l$, we can create a coordinate system where for any two points $x,y$ on that line, there is always a way to change $x=0$ and $y>0$.
+
+### Problem 5
+
+Using the model from the original problem:
+
+![](2021-07-14-19-53-58.png)
+
+We have now that $AA=0$ for all point $A$ in $S$ and $AB=1$ for all distinct points $A,B$ in $S$.
+
+### Problem 6
 
 
 
