@@ -163,7 +163,7 @@ Getting rid of the absolute value: $f(A)-f(B)=\pm0$
 
 $f(A)=f(B)$
 
-Thus, $AB$ is $0$ only when $f(A)=f(B)$ as desired.
+Thus, $AB$ is $0$ only when $f(A)=f(B)$. Due to $f$ being a one to one function, $A$ must equal $B$. $AB$ is $0$ only when $A=B$ as desired.
 
 QED
 
@@ -230,6 +230,18 @@ We have now that $AA=0$ for all point $A$ in $S$ and $AB=1$ for all distinct poi
 
 
 ## Exercise 3
+
+### Problem 1
+
+We are trying to prove that if $A-B-C$ (B is between A and C), then $C-B-A$ (B is between C and A).
+
+The equation for $A-B-C$ is $AB+BC=AC$, then, for $C-B-A$, the equation becomes:
+
+$CB-BA=CA$, based off of theorem 6, we can say that the $|CB| = |BC|$
+
+### Problem 2
+
+
 
 ### Problem 3
 
