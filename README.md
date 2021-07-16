@@ -11,3 +11,29 @@
   - 3 hours, from gathered textbooks, take notes
   - 5 hours, from notes, preliminary survey and testing
   - 2 hours, plan for course
+
+## Week 1
+
+- Assignment 1 due 07-18-2021
+  - [x] Exercise 1 07-15-2021
+  - [x] Exercise 2 07-15-2021
+  - [ ] Exercise 3 07-16-2021
+  - [ ] Exercise 4 07-17-2021
+
+## Week 2
+
+- Assignment 2
+
+## Week 3
+
+- Assignment 3
+
+## Week 4
+
+- Assignment 4
+- 
+
+## Week 5
+
+- Assignment 5
+- Final Exam

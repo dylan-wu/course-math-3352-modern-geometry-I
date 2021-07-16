@@ -231,7 +231,7 @@ We have now that $AA=0$ for all point $A$ in $S$ and $AB=1$ for all distinct poi
 
 ## Exercise 3
 
-### Problem 1
+### Exercise 3.1
 
 We are trying to prove that if $A-B-C$ (B is between A and C), then $C-B-A$ (B is between C and A).
 
@@ -239,9 +239,68 @@ The equation for $A-B-C$ is $AB+BC=AC$, then, for $C-B-A$, the equation becomes:
 
 $CB-BA=CA$, based off of theorem 6, we can say that the $|CB| = |BC|$
 
-### Problem 2
+### Exercise 3.2
 
+Theorem 10 states:
 
+Let $l$ be a line with a coordinate system $f$ and let $A,B,$ and $C$ be three points on $l$ with coordinates $r,s,t$ respectively. If $r-s-t$, then $A-B-C$
 
-### Problem 3
+Postulate 8 states:
+
+Every line has a coordinate system.
+
+We know that a coordinate system is one to one and maps a value in the real numbers to a point on our line.
+
+This means that $r,s,t$ are all unique, and all map to a single value.
+
+We also know from definition 6 and 7 that $A,B,C$ are also all distinct points, meaning they don't lie on top of each other.
+
+Then, because $r=A$, $s=B$ and $t=C$, if $r-s-t$ then $A-B-C$ must be true.
+
+Theorem 11 states:
+
+For any three points on a line, exactly one of the points is between the other two.
+
+Theorem 12 states:
+
+If $A$ and $B$ are any two points, then
+
+(1) there is a point $C$ such that $A-B-C$
+(2) there is a point $D$ such that $A-D-B$
+
+Let's define $4$ coordinates $r,s,t,u$ where $r=A,s=B,t=C,u=D$
+
+We already know that each of these values are unique, and one to one.
+
+If we have $A-B-C$, this must mean that $A<B<C$.
+
+Let's choose a $C$ s.t. $C=2|B|$, then we can see that obviously $A<B<2|B|$
+
+If we have $A-D-B$, this must mean that $A<D<B$.
+
+Let's choose a $D$ s.t. $D=\frac{A+B}{2}$, this guarantees that $D$ is greater than $A$ and less than $B$, thus $A<D<B$
+
+### Exercise 3.3
+
+The converse of theorem 10:
+
+Let $l$ be a line with a coordinate system $f$ and let $A,B,$ and $C$ be three points on $l$ with coordinates $r,s,t$ respectively. If $A-B-C$, then $r-s-t$
+
+As for the reasons above in previous proof for theorem 10, we can say that because $r=A$, $s=B$ and $t=C$, if $A-B-C$ then $r-s-t$ must be true
+
+### Exercise 3.4
+
+If $A-B-C$, that must mean that $A<B<C$
+
+If $B-C-D$, that must mean that $B<C<D$
+
+Thus, by transitivity of the $<$ operator, $A<B<D$ and $A<C<D$
+
+This implies that $B$ is between $A$ and $D$ and $C$ is between $A$ and $D$
+
+### Exercise 3.5
+
+## Exercise 4
+
+### Exercise 4.1
 
