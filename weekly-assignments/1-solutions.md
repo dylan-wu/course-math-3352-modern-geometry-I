@@ -300,7 +300,63 @@ This implies that $B$ is between $A$ and $D$ and $C$ is between $A$ and $D$
 
 ### Exercise 3.5
 
+A segment $\overline{AB}$ is the set of points on the line $\overleftrightarrow{AB}$ in between the two endpoints $A$ and $B$.
+
 ## Exercise 4
 
 ### Exercise 4.1
+
+Theorem 13:
+
+For a point $C$ to lie in the segment $\overline{AB}$, we know that $A<C<B$, flipping this we get $B>C>A$, which is equivalent.
+
+Because all points of the line segment $\overline{AB}$ also lie in $\overline{BA}$, we can say they are equivalent.
+
+QED
+
+Theorem 14:
+
+(1) This is obvious, a line segment is equivalent to itself, $AB=AB$
+
+(2) This is obvious, $AB=CD=CD=AB$
+
+(3) If $AB\cong CD$, that means $AB=CD$, then if $CD\cong EF$, that means $CD=EF$, by transitivity of the $=$ operator, $AB=EF$ and $AB\cong EF$ by definition.
+
+QED
+
+### Exercise 4.2
+
+A ray $\overrightarrow{AB}$ is the infinite set of points on the line $\overleftrightarrow{AB}$ that are greater than $A$.
+
+In other words, one of the points $A$ or $B$ is fixed, while the other point is any and all arbitrary points greater than, or less than, the fixed point.
+
+### Exercise 4.3
+
+Let's say that in both rays, point $A$ is the fixed point. Then clearly $\overrightarrow{AB}=\overrightarrow{AC}$. Our definition states that the point $B$, or $C$ (the second, non-fixed point) is any and all points greater than or less than the fixed point, or $A$ in this case.
+
+In other words, the only requirement for two rays to be identical, is for the fixed point to remain the same.
+
+### Exercise 4.4
+
+Say we have two distinct rays $\overrightarrow{AB}$ and $\overrightarrow{CD}$ that lie on two distinct lines $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ respectively.
+
+Say these rays intersect at some point $E$. This point is known as the vertex of our angle, and the angle is the set of points $E$ and points $F$ that satisfy $E<F<B$ or $E<F<D$.
+
+An angle is represented by the symbol $\angle DEB$ where $D$ and $B$ are distinct points on each of the rays, and $E$ is the vertex.
+
+### Exercise 4.5
+
+A triangle is the set of points that lie on three distinct line segments $\overline{AB},\overline{BC},\overline{CD}$/
+
+### Exercise 4.6
+
+We know from Exercise 4.3, that $\overrightarrow{AB_1}$ and $\overrightarrow{AC_1}$ are equivalent to $\overrightarrow{AB}$ and $\overrightarrow{AC}$.
+
+Thus $\angle BAC=\angle B_1AC_1$ by definition.
+
+### Exercise 4.7
+
+The midpoint $C$ of a segment $\overline{AB}$ is the point on $\overline{AB}$ such that $\overline{AC}=\overline{CB}$ and $A<C<B$
+
+### Exercise 4.8
 
