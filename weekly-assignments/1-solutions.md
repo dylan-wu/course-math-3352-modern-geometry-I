@@ -360,3 +360,74 @@ The midpoint $C$ of a segment $\overline{AB}$ is the point on $\overline{AB}$ su
 
 ### Exercise 4.8
 
+Theorem 15
+
+If we are given a segment $\overline{AB}$ and a ray $\overrightarrow{CD}$, then obviously we will be able to construct a segment $\overline{CE}$ with $E$ being a point on the ray, s.t. $\overline{AB}\cong\overline{CE}$.
+
+Using the rule postulate:
+
+Let there be a line $\overleftrightarrow{CD}$, because $AB<CD$, by the Ruler postulate, there must exist a point $E$ on the line $\overleftrightarrow{CD}$ where $e=AB$
+
+Then, because of the ruler postulate, we know that $C-E-D$, thus, $E$ is unique and exists.
+
+Theorem 16
+
+Proof by contradiction:
+
+Assume that $M$ is the midpoint of some segment $\overline{AB}$, then $AM=\frac{1}{2}(AB)$. Now say that there is another distinct point $N$ that is also a midpoint of $AB$, where $AN=\frac{1}{2}(AB)$.
+
+By substitution, $AM=AN$. And we know that $AM=AN+NM$ by the segment-addition postulate.
+
+Substituting again, we get that $AN+NM=AN$. Simplifying this gives us $NM=0$. However, this contradicts the Ruler Postulate, and so we can see that our assumption is wrong and $M$ is the only midpoint for $AB$
+
+Theorem 17
+
+We can first say that $AC=AB+BC$ and $A'C'=A'B'+B'C'$
+
+And if $AB=A'B'$ and $BC=B'C'$ then by substitution, $AC=A'B'+B'C'$, then $\overline{AC}\cong\overline{A'C'}$
+
+Theorem 18
+
+We can first say that $AC=AB+BC$ and $A'C'=A'B'+B'C'$
+
+And if $AB=A'B'$ and $AC=A'C'$ then by substitution, $A'C'=A'B'+BC$, then subtracting $A'C'=A'B'+B'C'$, we get that $BC=B'C'$
+
+### Exercise 4.9
+
+Proof:
+
+By the ruler placement theorem, there is a coordinate system $f$ on the line $\overleftrightarrow{AB}$ s.t. $f(A)=0$ and $f(B)=x>0$
+
+Then, taking a point $P$ on the ray $\overrightarrow{AB}$ if $P=A$, then obviously $f(P)=0$
+
+However, if $P\ne A$, then $P$ satisfies either of $A-P-B$ or $A-B-P$
+
+If it is the former, then $0<f(P)<x$
+
+If it is the latter, then $0<x<f(P)$
+
+In both cases $0<f(P)$
+
+Then, we have shown that $\overrightarrow{AB}=\{P|f(P)\ge0\}$
+
+QED
+
+### Exercise 4.10
+
+We can satisfy this by showing that if $\overline{AB}\cong\overline{CD}$, then $\overline{AC}\cong\overline{BD}$
+
+Proof:
+
+If $\overline{AB}\cong\overline{CD}$, then $AB=CD$, 
+
+By the segment addition theorem, we can say that $AB+BC=AC$
+
+Substituting $AB=CD$
+
+$CD+BC=AC$
+
+By the segment addition theorem, $CD+BC=BD$.
+
+Then, $AC=BD$ and $\overline{AC}\cong\overline{BD}$
+
+QED
