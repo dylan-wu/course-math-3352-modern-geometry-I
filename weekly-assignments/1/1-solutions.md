@@ -227,7 +227,9 @@ We have now that $AA=0$ for all point $A$ in $S$ and $AB=1$ for all distinct poi
 
 ### Problem 6
 
+For the set of all integers and rationals, the theorems above still hold. The integers and rationals are both subsets of the real numbers, and none of the arithmetic operations above work with numbers outside of the given set.
 
+For example, if I were given an integer coordinate system, I would not need an irrational number to prove any of theorems 5 - 8.
 
 ## Exercise 3
 
